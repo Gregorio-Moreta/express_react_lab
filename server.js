@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 
 //  Route for retrieving projects
 app.get("/projects", (req, res) => {
-    res.json(about);
+    res.json(projects);
 });
 
 //  Route for retrievign about information
